@@ -1,6 +1,6 @@
 """
 Updates backgrounds.json
-Updates README.me
+Updates README.md
 with latest backgrounds from server
 
 Run & Update.
@@ -16,7 +16,7 @@ from time import sleep
 chromecastHomeURL = 'https://clients3.google.com/cast/chromecast/home/v/c9541b08'
 initJSONStateRegex = r"(JSON\.parse\(.+'\))"
 
-FETCH_TIMES = 2
+FETCH_TIMES = 100
 SLEEP_BETWEEN_REQUESTS = 2  # seconds
 
 def parseChromecastHome(htmlString):
