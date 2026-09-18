@@ -41,4 +41,4 @@ def getChromecastHome():
 
 backgrounds = getChromecastHome()
 
-print(backgrounds)
+print(json.dumps(backgrounds, indent=2))
